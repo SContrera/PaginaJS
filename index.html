@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <div id="filtrador">
+        <label>Ingrese un país: </label>
+        <input id="inputColor" type="text" onkeyup="handlerFiltrar()">
+    </div>
+
+    <hr>
+
+    <table id="table">
+        <tbody>
+            <tr>
+                <th>Nombre del País</th>
+                <th> Capital </th>
+                <th>Bandera </th>
+            </tr>
+        </tbody>
+        <p id="mensajeError">No se encuentra el elemento que está buscando.</p>
+    </table>
+
+    <script src="tablaPaises.js"></script>
+    <script src="data.js"></script>
+</body>
+</html>
+
+
+<!-- 
+Etiqueta	Descripción
+<table>	Etiqueta contenedora que tendrá en su interior toda la tabla.
+<tr>	Table Row. Etiqueta contenedora de cada fila de la tabla.
+<td>	Table Data. Cada una de las celdas de la tabla.
+<th>	Table Header. Cada una de las celdas de cabecera de la tabla. -->
